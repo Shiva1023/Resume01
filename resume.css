@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Styles For Similar Elements */
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 30px 35px;
+  padding: 0;
+}
+
+hr {
+  margin: 15px auto;
+  border: none;
+  border-top: medium double;
+}
+
+/* Styles for Non Similar Elements */
+/* Section 0 */
+.personal-details {
+  text-align: center;
+}
+.personal-details h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(34, 115, 227);
+  margin: 5px auto 0px;
+}
+
+.personal-details p {
+  margin: 0 auto;
+}
+
+.personal-details a,
+.fa-solid,
+.fa-brands {
+  color: black;
+  height: 20px;
+  width: 20px;
+  margin: 8px 30px 8px 3px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+/* Section 1 : profile summary */
+
+h2 {
+  color: rgb(34, 115, 227);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.profile-summary p {
+  margin: 10px 30px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+span {
+  color: rgb(29, 100, 199);
+}
+
+.profile-summary span:hover {
+  font-weight: 500;
+}
+/* Section 2 : Education */
+.education h4 {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.education,
+.skills,
+.projects,
+.certifications,
+.signature,
+.declaration,
+.activities,
+ul,
+ol,
+li {
+  margin-top: 3px;
+  line-height: 30px;
+}
+
+.activities a {
+  text-decoration: none;
+}
+
+.declaration p {
+  margin: 10px 30px;
+}
+a {
+  color: rgb(29, 100, 199);
+  text-decoration: none;
+}
